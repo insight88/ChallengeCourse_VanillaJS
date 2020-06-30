@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .input {
+    display: inline;
+  }
+  
+  .result {
+    font-weight: 700;
+  }
+  
