@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div>
+      <input
+        type="text"
+        id="Result"
+        style="width:485px;
+        background-color:black;
+        padding: 25px 0;
+        border: none"
+      />
+      <input
+        class="btnReset"
+        type="button"
+        id="Reset"
+        onlick="clearAll()"
+        value="C"
+      />
+    </div>
+    <div>
+      <input class="btnNumber" id="7" value="7" onclick="numberInput(7)" />
+      <input class="btnNumber" id="8" value="8" onclick="numberInput(8)" />
+      <input class="btnNumber" id="9" value="9" onclick="numberInput(9)" />
+      <input class="btnCal" id="plus" value="+" onclick="calculate("+")" />
+    </div>
+    <div>
+      <input class="btnNumber" id="4" value="4" onclick="numberInput(4)" />
+      <input class="btnNumber" id="5" value="5" onclick="numberInput(5)" />
+      <input class="btnNumber" id="6" value="6" onclick="numberInput(6)" />
+      <input class="btnCal" id="minus" value="-" onclick="calculate("-")" />
+    </div>
+    <div>
+      <input class="btnNumber" id="1" value="1" onclick="numberInput(1)" />
+      <input class="btnNumber" id="2" value="2" onclick="numberInput(2)" />
+      <input class="btnNumber" id="3" value="3" onclick="numberInput(3)" />
+      <input class="btnCal" id="multiply" value="×" onclick=calculate("×")>
+    </div>
+    <div>
+      <input class="btnZero" id="0" value="0" onclick="numberInput(0)" />
+      <input class="btnNumber" id="equal" value="=" onclick=calculate("=")>
+      <input class="btnCal" id="divide" value="÷" onclick=calculate("÷")>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

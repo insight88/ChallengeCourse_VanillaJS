@@ -1,0 +1,52 @@
+body {
+font-family: sans-serif;
+}
+
+main {
+background-color: black;
+width: 620px;
+height: 360px;
+padding: 20px 40px;
+}
+
+.topLine,
+.nthLine,
+.bottomLine {
+display: flex;
+}
+
+.button {
+width: 150px;
+height: 60px;
+border-radius: 13px;
+color: white;
+margin: 5px;
+font-size: 20px;
+outline: 0;
+}
+
+.display {
+width: 465px;
+height: 60px;
+color: white;
+font-size: 40px;
+text-align: right;
+line-height: 60px;
+padding-right: 20px;
+}
+
+.reset {
+background-color: #aaa9b1;
+}
+
+.number {
+background-color: #363439;
+}
+
+.calculate {
+background-color: #fe8e00;
+}
+
+.zero {
+width: 310px;
+}
